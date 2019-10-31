@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <title>Bookstore</title>
+</head>
+
+<body>
+    <header>
+        <img class="photo" src="./img/bookstore-logo-symbol-isolated-on-white-vector-9408991.jpg">
+
+        <!-- Search form -->
+
+        <div class="active-cyan-3 active-cyan-4 mb-4">
+            <input class="form-control" onkeyup="searchFor()" id="search" type="text" placeholder="Search for books"
+                aria-label="Search for books" title="Type in a name">
+        </div>
+    </header>
+
+    <div id="books">
+    </div>
+
+
+    <script src="./bookstore.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
